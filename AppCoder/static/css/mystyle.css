@@ -3,3 +3,25 @@
     top: 61px;
     border: 1px solid black
 }
+
+.contenidoEstudiantes{
+    background-color: rgba(78, 137, 169, 0.573);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formDataEstudiantes{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    gap: 5px;
+}
+
+.formDataEstudiantes input{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px;
+}
